@@ -8,13 +8,13 @@
 4. Open the spreadsheet locally, and export as CSV
 5. Run this app to create a set of files for each book.
 6. Bear -> File -> Import Notes.  Select all the notes. Select "Use first line as title".
-7. Done.
+7. Done
 
-## How to run
+## How to run
 
     ruby go.rb -i /tmp/clippings.csv -o /tmp/out
 
-## Usage
+## Usage
 
     Usage: go.rb -i <file.csv> -o <DIR>
     -i FILENAME                      CSV file to read from
